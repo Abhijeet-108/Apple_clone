@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Book Antiqua;
+    box-sizing: border-box;
+}
+
+header{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    overflow: hidden;
+    z-index: 33;
+}
+.subnav{
+    overflow: hidden;
+    z-index: 33;
+}
+.subnav .subnavbtn {
+    background: none;
+    border: none;
+    outline: none;
+    margin: 0;
+    cursor: pointer;
+}
+
+.subnav-content {
+    background: white;
+    display: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 33;
+    animation: growDown 400ms ease-in-out forwards;
+    transform-origin: top center;
+}
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+.nav {
+    margin-top: 50px;
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+.nav .div1{
+    margin-right: 80px;
+}
+.nav span{
+    color: grey;
+    font-size: 15px;
+    line-height: 40px;   
+    cursor: pointer;
+}
+.nav h2,p{
+    line-height: 40px;
+    cursor: pointer;
+}
+.pro{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.pro span{
+    font-weight: 400px;
+    color: grey;
+    font-size: 15px;
+}
+.now{
+    color: blue;
+}
+
+.image{
+    width: 100%;
+    height: 550px;
+    background-image: url("iPhone.png");
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.text{
+    display: grid;
+    justify-content: center;
+    color: white;
+}
+
+.text h1{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: 700;
+}
+.text h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.text span {
+    margin-top: 10px;
+    color: rgb(24, 145, 226);
+    margin-left: 60px;
+    font-size: 22px;
+}
