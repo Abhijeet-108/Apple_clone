@@ -188,9 +188,9 @@ header{
 }
 
 .image2 .text h1{
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 50px;
     font-weight: 700;
 }
 
@@ -211,19 +211,294 @@ header{
     margin-left: 40px;
     font-size: 22px;
 }
-.image2 .text{
-    display: grid;
-    justify-content: center;
-    color: white;
+
+.container{
+    display: flex;
 }
 
-.image2 .text h1{
+.img{
+    width: 100%;
+    height: 550px;
+    background-image: url("watch2.png");
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.img .text{
+    display: grid;
+    justify-content: center;
+    color: black;
+}
+
+.img .text h1{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.img .series{
+    margin-left: 80px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(163, 95, 5);
+}
+
+.img .text h3{
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.text .par {
+    margin-top: 10px;
+    color: rgb(24, 145, 226);
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.img1{
+    width: 100%;
+    height: 550px;
+    background-image: url("watch3.png");
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.img1 .text{
+    display: grid;
+    justify-content: center;
+    color: black;
+}
+
+.img1 .text h1{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.img1 .text h3{
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.img2{
+    width: 100%;
+    height: 550px;
+    background-image: url("watch4.png");
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.img2 .text{
+    display: grid;
+    justify-content: center;
+    color: black;
+}
+
+.img2 .text h1{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.img2 .series{
+    margin-left: 90px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(163, 5, 5);
+}
+
+.img2 .text h3{
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.text2 .par {
+    margin-top: 10px;
+    color: rgb(24, 145, 226);
+    margin-left: 30px;
+    font-size: 22px;
+}
+.img3{
+    width: 100%;
+    height: 550px;
+    background-image: url("mac.png");
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.img3 .text{
+    display: grid;
+    justify-content: center;
+    color: black;
+}
+
+.img3 .text h1{
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-weight: 600;
+}
+.img3 .text h2{
+    font-size: 35px;
+    margin-left: 85px;
+    font-weight: 600;
+}
+
+.img3 .series{
+    margin-left: 70px;
+    font-size: 16px;
+    color: rgb(163, 5, 5);
+}
+
+.img3 .text h3{
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.text3 .par {
+    margin-top: 10px;
+    color: rgb(24, 145, 226);
+    font-size: 22px;
+    margin-left: 60px;
+}
+
+.img4{
+    width: 100%;
+    height: 550px;
+    background-image: url("mac1.png");
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.img4 .text{
+    display: grid;
+    justify-content: center;
+    color: black;
+}
+
+.img4 .text h1{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.img4 .text h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.text4 .text span {
+    margin-top: 10px;
+    color: rgb(24, 145, 226);
+    font-size: 22px;
+    padding-left: 60px;
+}
+
+.img5{
+    width: 100%;
+    height: 550px;
+    background-image: url("iPhone1.png");
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.img5 .text{
+    display: grid;
+    justify-content: center;
+    color: black;
+}
+
+.img5 .text h1{
     font-size: 40px;
     margin-top: 50px;
     margin-left: 40px;
     font-weight: 700;
 }
-.image2 .text h3{
-    font-size: 28px;
+
+.img5 .text h3{
+    font-size: 20px;
     font-weight: 400;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.text5 .par {
+    margin-top: 10px;
+    color: rgb(24, 145, 226);
+    font-size: 22px;
+    margin-left: 60px;
+}
+
+footer{
+    background: rgb(238, 235, 235);
+}
+.foot{
+    display: grid;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+footer .foot span{
+    color: grey;
+    font-size: 13px;
+    margin-top: 20px;
+    font-family: Arial;
+}
+.border{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+    border-bottom: 1px solid grey ;
+}
+.foot1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.foot1 .shop h4{
+    color: rgb(59, 59, 59);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.foot1 .shop span{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 101, 101);
+    line-height: 30px;
+}
+
+.foot2{
+    margin-top: 30px;
+    display: grid;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 101, 101);
+}
+.border1{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+    border-bottom: 1px solid grey ;
+}
+.foot3{
+    margin-top: 10px;
+    display: grid;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 101, 101);
+    padding-bottom: 30px;
 }
