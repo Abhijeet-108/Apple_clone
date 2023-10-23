@@ -10,6 +10,7 @@
 </head>
 <body>
     <script src="https://kit.fontawesome.com/9fb89cad6b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
     <header>
         <i class="fa-brands fa-apple"></i>
         <div class="subnav">
@@ -286,7 +287,7 @@
             </div>
         </div>
         <div class="subnav">
-            <button class="subnavbtn">Support</i></button>
+            <button class="subnavbtn">Support</button>
             <div class="subnav-content">
                 <div class="nav">
                     <div class="div1">
@@ -313,8 +314,26 @@
                 </div>
             </div>
         </div>
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <i class="fa-solid fa-store"></i>
+        <div class="search">
+            <button class="dropbtn" onclick="myFunction()"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <div class="sub-search" id="myDropdown">
+                <div class="search-place">
+                    <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                    <input type="text" placeholder="Search....">
+                </div>
+                <div class="link">
+                    <h6 class="Quick">Quick links</h6>
+                    <span><i class="fa-sharp fa-solid fa-arrow-right"></i> Shop Apple Store Online</span>
+                    <span><i class="fa-sharp fa-solid fa-arrow-right"></i> Find a Store </span>
+                    <span><i class="fa-sharp fa-solid fa-arrow-right"></i> Accessories </span>
+                    <span><i class="fa-sharp fa-solid fa-arrow-right"></i> Airpods </span>
+                    <span><i class="fa-sharp fa-solid fa-arrow-right"></i> Apple Trade In</span>
+                </div>
+            </div>
+        </div>
+        <div class="cart">
+            <i class="fa-solid fa-store"></i>
+        </div>
     </header>
     <div class="pro">
         <span>Get up to ₹8000.00 instant savings on selected products with eligible HDFC Bank cards.* <span class="now" style="color: rgb(0, 162, 255);">Shop now</span></span>
@@ -486,12 +505,13 @@
             </div>
         </div>
         <div class="foot2">
-            More ways to shop: Find an Apple Store or other retailer near you. Or call 000800 040 1966.
+            More ways to shop: <a href=""> Find an Apple Store </a> or <a href=""> other retailer </a> near you. Or call 000800 040 1966.
         </div>
         <div class="border1"></div>
         <div class="foot3">
-            Copyright © 2023 Apple Inc. All rights reserved.
+            <span>Copyright © 2023 Apple Inc. All rights reserved. </span><span> Privacy Policy | Terms of Use | Sales Policy | Legal Site | Map </span><span style="float: right;">India</span>
         </div>
     </footer>
+    
 </body>
 </html>
